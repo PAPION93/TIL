@@ -1,5 +1,5 @@
 # Today I Learned
-끊임없이 새로운 것을 배우기 위한 자극처가 되는 곳.
+끊임없이 새로운 것을 배우기 위한 자극처가 되는 곳,
 하루하루 배운 내용들을 기록한다.
 
 ### 작성법
@@ -10,4 +10,4 @@
 ---
 
 ### Tools
-- [IntelliJ 관련](https://github.com/PAPION93/TIL/blob/master/Tools/IntelliJ.md)
+- [IntelliJ](https://github.com/PAPION93/TIL/blob/master/Tools/IntelliJ.md)
