@@ -12,9 +12,9 @@
 
 ## 스왑이 발생하는 시기
 `swap_tendency = mapped_ratio / 2 + distress + swappiness`
-- 리눅스는 이와 같이 swap_tendency를 계산하는데, swap_tendency 값이 100을 초과하면 스왑을 시작한다.
+- 리눅스는 이와 같이 `swap_tendency`를 계산하는데, `swap_tendency` 값이 100을 초과하면 스왑을 시작한다.
 - `distress` 값이 낮고 `swappiness` 값을 60으로 설정했다면, 시스템 내 총 메모리의 80%가 할당될때 까지 스왑은 발생하지 않는다. 앱의 메모리가 스왑 아웃되는 것을 보고 싶지 않다면 `swappiness`를 5또는 10같이 낮게 설정할 수 있으며, 커널은 `distress` 값이 상당히 높을 때 까지 프로세스 메모리를 무시하게 된다.
-- mapped_ratio 와 distress 는 사용자가 수정할 수 없다.
+- `mapped_ratio` 와 `distress` 는 사용자가 수정할 수 없다.
 
 #### 1. mapped_ratio
 - 현재 사용 중인 메모리 사용률
@@ -26,11 +26,11 @@
 
 #### 3. swappiness
 - 스왑메모리 사용을 제어하기 위한 커널 파라미터, default 는 60 이다
-- `/etc/sysctl.conf`의 vm.swappiness 에 값을 지정하여 수정할 수 있으며, 튜닝시에는 작은 단위로 변경이 이루어져야 한다.
+- `/etc/sysctl.conf`의 `vm.swappiness` 에 값을 지정하여 수정할 수 있으며, 튜닝시에는 작은 단위로 변경이 이루어져야 한다.
 - 이 값이 높을수록 스왑공간을 더 많이 사용하게 되어 캐시를 위해 더 많은 메모리를 남겨두지만, 줄일수록 시스템이 스왑을 덜 사용하게되고 앱의 응답성이 향상된다.
 - 이를 0으로 설정하면 `distress`의 값이 100이 되어야 스왑을 사용하게 된다.
 
 ## Swap Memory를 사용중인 프로세스 확인하기
 1. `top`
-2. `f`를 입력하면 `Current Fields` 가 나오는데 `p`를 입력하면 SWAP 앞에 `*`이 추가된다.
+2. `f`를 입력하면 `Current Fields` 가 나오는데 `p`를 입력하면 `SWAP` 앞에 `*`이 추가된다.
 3. `Enter`를 입력하고 나오면 COMMAND 앞에 SWAP이 출력된다.(`>`나 `<`를 통해 정렬)
