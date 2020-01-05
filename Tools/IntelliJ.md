@@ -29,3 +29,18 @@
 ### 4. 전체 프로젝트에서 문자열 검색(교체)
 - `Cmd + Shift + F(R)`
 - `Ctrl + Shift + F(R)`
+
+### 5. Go to declaration
+-  `Ctrl + B or Ctrl + Click`
+
+### 6. 메서드 오버라이드 구현
+- `Ctrl + O`
+
+### 7. 인터페이스 메서드 구현
+- `Ctrl + I`
+
+###  8. 줄 단위 주석 토글
+- `Ctrl + /`
+
+###  8. 블럭 단위 주석 토글
+- `Ctrl + Shift + /`
