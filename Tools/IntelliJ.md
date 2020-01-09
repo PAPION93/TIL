@@ -8,6 +8,11 @@
   - 프로젝트 우클릭 -> Add to SimpleUML Diagram 으로 바로 사용
   - 이쁘진않다...
 
+- IDE Features Trainer
+  - `Ctrl + Alt + S` Settings -> Plugins -> IDE Features Trainer
+  - 프로젝트 생성화면에서 Learn IntelliJ IDEA 버튼 생김
+  - 단축키를 알려준다.
+
 ---
 
 ## 단축키
@@ -39,8 +44,28 @@
 ### 7. 인터페이스 메서드 구현
 - `Ctrl + I`
 
-###  8. 줄 단위 주석 토글
+### 8. 줄 단위 주석 토글
 - `Ctrl + /`
 
-###  8. 블럭 단위 주석 토글
+### 9. 블럭 단위 주석 토글
 - `Ctrl + Shift + /`
+
+### 10. 기능찾기
+- `Ctrl + Shift + A`
+
+### 11. Line Dulpicate
+- `Ctrl + D`
+
+### 12. 라인 위아래로 Move
+- `Alt + Shift + Up or Down`
+
+### 13. 구문 위아래로 Move
+- `Ctrl + Shift + Up or Down`
+
+### 14. 라인 합치기
+- `Ctrl + Shift + J`
+
+### 15. 메소드 생략, 출력
+- `Ctrl + NumPad+/-` : Expand/collapse code block
+- `Ctrl + Shift + NumPad+` : Expand all
+- `Ctrl + Shift + NumPad-` : Collapse all
