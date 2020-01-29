@@ -12,7 +12,12 @@
 - [01_strategy_pattern](https://github.com/PAPION93/TIL/blob/master/DisignPatterns/01_strategy_pattern.md)
 
 ### Linux
+- [AwesomeMixCommand](https://github.com/PAPION93/TIL/blob/master/Linux/AwesomeMixCommand.md)
+- [RingBuffer](https://github.com/PAPION93/TIL/blob/master/Linux/RingBuffer.md)
 - [VirtualMemory](https://github.com/PAPION93/TIL/blob/master/Linux/VirtualMemory.md)
+
+### MariaDB
+- [MariaDB](https://github.com/PAPION93/TIL/blob/master/MariaDB/MariaDB.md)
 
 ### Tools
 - [IntelliJ](https://github.com/PAPION93/TIL/blob/master/Tools/IntelliJ.md)
