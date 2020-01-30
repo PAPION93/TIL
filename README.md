@@ -8,16 +8,17 @@
 - 폴더와 파일명은 가능한 영문으로 한다.
 
 ---
+
+### Database
+- [MariaDB](https://github.com/PAPION93/TIL/blob/master/MariaDB/MariaDB.md)
+
 ### DisignPatterns
-- [01_strategy_pattern](https://github.com/PAPION93/TIL/blob/master/DisignPatterns/01_strategy_pattern.md)
+- [01. Strategy Pattern](https://github.com/PAPION93/TIL/blob/master/DisignPatterns/01_strategy_pattern.md)
 
 ### Linux
-- [AwesomeMixCommand](https://github.com/PAPION93/TIL/blob/master/Linux/AwesomeMixCommand.md)
-- [RingBuffer](https://github.com/PAPION93/TIL/blob/master/Linux/RingBuffer.md)
-- [VirtualMemory](https://github.com/PAPION93/TIL/blob/master/Linux/VirtualMemory.md)
-
-### MariaDB
-- [MariaDB](https://github.com/PAPION93/TIL/blob/master/MariaDB/MariaDB.md)
+- [끝내주는 리눅스 명령어 모음](https://github.com/PAPION93/TIL/blob/master/Linux/AwesomeMixCommand.md)
+- [NIC Dropped Packet](https://github.com/PAPION93/TIL/blob/master/Linux/PacketDropped.md)
+- [Virtual Memory](https://github.com/PAPION93/TIL/blob/master/Linux/VirtualMemory.md) 
 
 ### Tools
 - [IntelliJ](https://github.com/PAPION93/TIL/blob/master/Tools/IntelliJ.md)

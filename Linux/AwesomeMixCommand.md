@@ -4,9 +4,11 @@
 ---
 
 ## 네트워크
-1. sar -n DEV 1
-> network throughput(Rx, Tx KB/s)을 측정할수 있다.  
+1. network throughput(Rx, Tx KB/s)을 측정  
+ - `sar -n DEV 1`  
 
-2. `ethtool -g ethx`
-> eth0의 Ring Buffer를 확인할 수 있다.  
-> `ethtool -G ethx rx 1020` 과 같이 설정 가능하다.
+2. Ring Buffer  
+ - Ring Buffer 사이즈 확인  
+ - `ethtool -g|--show-ring devname`  
+ - Ring Buffer 사이즈 설정  
+ - `ethtool -G|--set-ring devname [rx N] [tx N]`  
