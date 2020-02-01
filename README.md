@@ -9,7 +9,7 @@
 ---
 
 ### Database
-- [MariaDB](https://github.com/PAPION93/TIL/blob/master/MariaDB/MariaDB.md)
+- [MariaDB](https://github.com/PAPION93/TIL/blob/master/Database/MariaDB.md)
 
 ### DisignPatterns
 - [01. Strategy Pattern](https://github.com/PAPION93/TIL/blob/master/DisignPatterns/01_strategy_pattern.md)
