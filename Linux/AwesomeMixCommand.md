@@ -8,7 +8,7 @@
  - `sar -n DEV 1`  
 
 2. Ring Buffer  
- - Ring Buffer 사이즈 확인  
+ - 사이즈 확인  
  - `ethtool -g|--show-ring devname`  
- - Ring Buffer 사이즈 설정  
+ - 사이즈 설정  
  - `ethtool -G|--set-ring devname [rx N] [tx N]`  

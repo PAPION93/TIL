@@ -12,7 +12,7 @@
  - `LOCK = { DEFAULT | NONE | SHARED | EXCLUSIVE }`
  > DDL 실행중 다른커넥션의 읽기 쓰기를 허용하려면 NONE, 읽기만 허용은 SHARED
  - `ALGORITHM = { DEFAULT | INPLACE | COPY }`
- > COPY는 임시테이블 복사->레코드복사->테이블 RENAME 방식  
+ > COPY는 임시테이블 복사->스키마변경->레코드복사->테이블 RENAME 방식  
  > INPLACE  
     1. 스토리지 엔진 테이블인지 확인  
     2. 스키마 변경 준비  
