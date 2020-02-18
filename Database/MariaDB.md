@@ -20,6 +20,9 @@
         - DML 로그를 메모리에 저장한다. `innodb_online_alter_log_max_size` 으로 메모리크기 수정  
     4. 로그 적용  
     5. 스키마 변경완료 COMMIT 
+ - persona 의 pt-online-schema-change 도구도 존재한다.  
+ > 초당 1500 SELECT, 270 INSERT, UPDATE, DELETE 테스트시 MariaDB 10.0, Mysql 5.6의 온라인스키마 변경보다 시간은 2배이상 걸렸지만, 보다 안정적인 쿼리와 CPU 상태를 볼 수 있다.
+
 
 ### 242p. 쿼리의 실행 계획이 좋은 경우
  - Distinct
