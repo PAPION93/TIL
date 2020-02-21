@@ -69,3 +69,11 @@
 - `Ctrl + NumPad+/-` : Expand/collapse code block
 - `Ctrl + Shift + NumPad+` : Expand all
 - `Ctrl + Shift + NumPad-` : Collapse all
+
+
+## Git & Github
+### Commit
+- `Ctrl + k`
+
+### Push
+- `Shift + k`
