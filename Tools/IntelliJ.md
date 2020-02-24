@@ -70,10 +70,11 @@
 - `Ctrl + Shift + NumPad+` : Expand all
 - `Ctrl + Shift + NumPad-` : Collapse all
 
+--- 
 
 ## Git & Github
-### Commit
+### 1. Commit
 - `Ctrl + k`
 
-### Push
+### 2. Push
 - `Shift + k`
