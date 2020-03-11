@@ -1,4 +1,4 @@
-#  Lombok 정리해두기
+# Annotation 정리해두기
 > 스프링부트 공부 중 사용한 Lombok들을 정리하면서 빨리 익히도록 하자.
 
 ### @SpringBootApplication
@@ -20,7 +20,7 @@
 
 ### @RunWith(SpringRunner.class)
 
-> 테스트를 진행할 때 JUnit에 내장된 실행자 외에 다른 실행자를 실행.
+> 테스트를 진행할 때 JUnit에 내장된 실행자 외에 다른 실행자를 실행.  
 여기서는 SpringRuunner 실행자를 실행하며 스트링부트 테스트와 JUint 의 연결자
 
 ### @WebMvcTest

@@ -23,7 +23,7 @@
 - [Virtual Memory](https://github.com/PAPION93/TIL/blob/master/Linux/VirtualMemory.md) 
 
 ### SpringBoot
-- [Lombok](https://github.com/PAPION93/TIL/blob/master/SpringBoot/Lombok.md)
+- [Annotation](https://github.com/PAPION93/TIL/blob/master/SpringBoot/Annotation.md)
 
 ### Tools
 - [IntelliJ](https://github.com/PAPION93/TIL/blob/master/Tools/IntelliJ.md)
