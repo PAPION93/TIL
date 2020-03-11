@@ -1,5 +1,8 @@
 # Docker 명령어 정리
 
+### Docker image 리스트
+`docker images`
+
 ### Docker image or Container 정보출력
 `docker inspect [Container]`  
 
