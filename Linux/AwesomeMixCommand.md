@@ -26,3 +26,8 @@
  - `ethtool -g|--show-ring devname`  
  - 사이즈 설정  
  - `ethtool -G|--set-ring devname [rx N] [tx N]`  
+
+
+## VI
+1. 되돌리기와 되돌리기 취소
+ - `u , Ctrl + r`
