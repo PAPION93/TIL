@@ -77,4 +77,4 @@
 - `Ctrl + k`
 
 ### 2. Push
-- `Shift + k`
+- `Ctrl + Shift + k`
