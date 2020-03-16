@@ -50,7 +50,7 @@
 
 > 여러 테스트 어노테이션 중 Web(Spring MVC)에 집중할 수 있는 어노테이션
 
-### @WithMockUser(roles="User")
+### @WithMockUser(roles="USER")
 
 > 인증된 모의 사용자를 만들어서 사용  
 > ROLE_USER 권한을 가진 사용자가 API를 요청하는 것과 동일한 효과를 가지게 된다.
