@@ -70,6 +70,11 @@
 - `Ctrl + Shift + NumPad+` : Expand all
 - `Ctrl + Shift + NumPad-` : Collapse all
 
+### 16. 같은 단어 선택, 해제, 모두 선택
+- `Alt + j` : 선택
+- `Alt + Shift + j` : 해제
+- `Alt + Shift + Ctrl + j` : 모두 선택
+
 --- 
 
 ## Git & Github
