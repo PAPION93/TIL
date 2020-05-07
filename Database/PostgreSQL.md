@@ -1,70 +1,70 @@
-# Postgre
+# PostgreSQL
 
 ## Data Type
 
--   Numeric Type
+- Numeric Type
 
-    | Name        | Storage Size | Description                        |
-    | ----------- | ------------ | ---------------------------------- |
-    | smallint    | 2bytes       | small-range integer                |
-    | integer     | 4bytes       | typical choice for integer         |
-    | bigint      | 8bytes       | large-range integer                |
-    | smallserial | 2bytes       | small **autoincrementing** integer |
-    | serial      | 4bytes       | **autoincrementing** integer       |
-    | bigserial   | 8bytes       | large **autoincrementing** integer |
+  | Name        | Storage Size | Description                        |
+  | ----------- | ------------ | ---------------------------------- |
+  | smallint    | 2bytes       | small-range integer                |
+  | integer     | 4bytes       | typical choice for integer         |
+  | bigint      | 8bytes       | large-range integer                |
+  | smallserial | 2bytes       | small **autoincrementing** integer |
+  | serial      | 4bytes       | **autoincrementing** integer       |
+  | bigserial   | 8bytes       | large **autoincrementing** integer |
 
--   Character Type
+- Character Type
 
-    1. varchar(n) : 가변 길이
-    1. char(n) : 고정 길이, 공백 추가
-    1. text : 무제한 가변 길이
+  1. varchar(n) : 가변 길이
+  1. char(n) : 고정 길이, 공백 추가
+  1. text : 무제한 가변 길이
 
--   Date/Time Type  
-    ![](https://github.com/PAPION93/TIL/blob/master/img/psql-datetype.png)
+- Date/Time Type  
+  ![datetime](https://github.com/PAPION93/TIL/blob/master/img/psql-datetype.png)
 
--   Boolean Type
+- Boolean Type
 
-    | Name    | Storage Size | Description            |
-    | ------- | ------------ | ---------------------- |
-    | boolean | 1byte        | state of true or false |
+  | Name    | Storage Size | Description            |
+  | ------- | ------------ | ---------------------- |
+  | boolean | 1byte        | state of true or false |
 
--   Enumerated Type  
-    `CREATE TYPE week AS ENUM ('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun');`
+- Enumerated Type  
+  `CREATE TYPE week AS ENUM ('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun');`
 
 ---
 
 ## User
 
-#### Create User
+### Create User
 
--   `CREATE USER name [ [ WITH ] option [ ... ] ]`
--   [옵션 참고](https://www.postgresql.org/docs/9.6/sql-createuser.html)
-    > SUPERUSER | NOSUPERUSER  
-    > CREATEDB | NOCREATEDB  
-    > CREATEROLE | NOCREATEROLE
+- `CREATE USER name [ [ WITH ] option [ ... ] ]`
+- [옵션 참고](https://www.postgresql.org/docs/9.6/sql-createuser.html)
+  > SUPERUSER | NOSUPERUSER  
+  > CREATEDB | NOCREATEDB  
+  > CREATEROLE | NOCREATEROLE
 
-#### Select User
+### Select User
 
--   `SELECT * FROM PG_USER`
+- `SELECT * FROM PG_USER`
 
 ---
 
 ## Database
 
-#### Create, Drop은 Mysql과 동일하다.
+### Create, Drop은 Mysql과 동일하다.
 
-#### Show Databases
+### Show Databases
 
--   `\l`
+- `\l`
 
-#### Use Database
+### Use Database
 
--   `\c testdb;`
+- `\c testdb;`
 
-#### Show Tables
+### Show Tables
 
--   `\d`
+- `\d`
 
-#### DESC Table
+### DESC Table
 
--   `\d table_name`
+- `\d table_name`
