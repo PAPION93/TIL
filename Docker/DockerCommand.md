@@ -2,7 +2,7 @@
 
 ## 참고
 
-![docker-img](https://github.com/PAPION93/TIL/blob/master/img/docker-img.jpg)
+![docker-img](https://github.com/PAPION93/TIL/blob/master/img/docker-img.png)
 
 ## Docker image 리스트
 
