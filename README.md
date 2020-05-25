@@ -12,8 +12,8 @@
 
 ### Database
 
-- [MariaDB](https://github.com/PAPION93/TIL/blob/master/Database/MariaDB.md)
-- [PostgreSQL](https://github.com/PAPION93/TIL/blob/master/Database/PostgreSQL.md)
+- [MariaDB](https://github.com/PAPION93/TIL/blob/master/Database/mariaDB.md)
+- [PostgreSQL](https://github.com/PAPION93/TIL/blob/master/Database/postgreSQL.md)
 
 ### DisignPatterns
 
@@ -21,19 +21,19 @@
 
 ### Docker
 
-- [Docker](https://github.com/PAPION93/TIL/blob/master/Docker/DockerCommand.md)
+- [Docker](https://github.com/PAPION93/TIL/blob/master/Docker/docker-command.md)
 
 ### Linux
 
-- [끝내주는 리눅스 명령어 모음](https://github.com/PAPION93/TIL/blob/master/Linux/AwesomeMixCommand.md)
-- [NIC Dropped Packet](https://github.com/PAPION93/TIL/blob/master/Linux/PacketDropped.md)
-- [Virtual Memory](https://github.com/PAPION93/TIL/blob/master/Linux/VirtualMemory.md)
-- [Bonding Setting](https://github.com/PAPION93/TIL/blob/master/Linux/BondingSettings.md)
+- [끝내주는 리눅스 명령어 모음](https://github.com/PAPION93/TIL/blob/master/Linux/awesome-mix-command.md)
+- [NIC Dropped Packet](https://github.com/PAPION93/TIL/blob/master/Linux/packet_dropped.md)
+- [Virtual Memory](https://github.com/PAPION93/TIL/blob/master/Linux/virtual-memory.md)
+- [Bonding Setting](https://github.com/PAPION93/TIL/blob/master/Linux/bonding_settings.md)
 
 ### SpringBoot
 
-- [Annotation](https://github.com/PAPION93/TIL/blob/master/SpringBoot/Annotation.md)
+- [Annotation](https://github.com/PAPION93/TIL/blob/master/SpringBoot/annotation.md)
 
 ### Tools
 
-- [IntelliJ](https://github.com/PAPION93/TIL/blob/master/Tools/IntelliJ.md)
+- [IntelliJ](https://github.com/PAPION93/TIL/blob/master/Tools/intelliJ.md)
