@@ -20,6 +20,7 @@
   1. text : 무제한 가변 길이
 
 - Date/Time Type  
+
   ![datetime](https://github.com/PAPION93/TIL/blob/master/img/psql-datetype.png)
 
 - Boolean Type
@@ -45,26 +46,35 @@
 
 ### Select User
 
-- `SELECT * FROM PG_USER`
+- `SELECT * FROM PG_USER` , `\du`
 
 ---
 
 ## Database
 
-### Create, Drop은 Mysql과 동일하다.
+### Create
+```
+create database database_name OWNER test_user;
+
+CREATE DATABASE name [ [ WITH ] [ OWNER [=] user_name ]
+[ TEMPLATE [=] template ]
+[ ENCODING [=] encoding ]
+[ LC_COLLATE [=] lc_collate ]
+[ LC_CTYPE [=] lc_ctype ]
+[ TABLESPACE [=] tablespace_name ]
+[ ALLOW_CONNECTIONS [=] allowconn ]
+[ CONNECTION LIMIT [=] connlimit ]
+[ IS_TEMPLATE [=] istemplate ] ]
+```
 
 ### Show Databases
-
-- `\l`
+  - `\l`
 
 ### Use Database
-
-- `\c testdb;`
+  - `\c testdb;`
 
 ### Show Tables
-
-- `\d`
+  - `\d`
 
 ### DESC Table
-
-- `\d table_name`
+  - `\d table_name`
