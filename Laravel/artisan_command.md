@@ -1,14 +1,11 @@
 # Artisan Command
 
-## 명령어
-
 ### Model 생성
 
 ```
 $ php artisan make:model Post
 $ php artisan make:model Author
 ```
-
 > 모델명은 단수, 테이블명은 복수
 
 ### DB Migration 생성
@@ -37,14 +34,23 @@ php artisan make:seeder UserSeeder
 
 ### Seeder 실행
 ```
-composer dump-autoload
+composer dump-autoload // 오토로더 재생성
 php artisan db:seed
-php artisan db:seed --class=UserSeeder
+php artisan db:seed [--class=UserSeeder]
 php artisan migrate:fresh --seed // 초기화 후 seed
 ```
 
 ### RESTful Resource Controller 만들기
-
 ```
 php artisan make:controller PostsController --resource
+```
+
+### 미들웨어 정의하기
+```
+php artisan make:middleware CheckAge
+```
+
+### Request Class 생성
+```
+php artisan make:Request PostsRequest
 ```
