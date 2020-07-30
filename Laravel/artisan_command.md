@@ -59,3 +59,9 @@ php artisan make:Request PostsRequest
 ```
 php artisan make:test UserTest [--unit]
 ```
+
+### Test 실행
+```
+php artisan test
+vendor/bin/phpunit tests/Unit/Test.php
+```
