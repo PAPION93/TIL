@@ -14,8 +14,8 @@
 
 ## Dockerfile Build
 
-`docker build -t [OPTION] PATH URL`  
-`docker build -t username/imagename:1.0 Dokcerfile .`
+`docker build [OPTIONS] PATH | URL | -`  
+`docker build -t username/imagename:1.0 .`
 
 ## docker image run
 
@@ -34,6 +34,10 @@
 
 `docker exec -it [Container] /bin/bash`
 
-## docker compose 실행
+## docker compose 실행, 다운
 
-`docker-compose up -d`
+`docker-compose up -d [--build]`
+> --build: image build  
+
+`docker-compose down [-v]`  
+> -v: 선언된 볼륨 제거  
