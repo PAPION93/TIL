@@ -21,7 +21,8 @@
 
 ### Docker
 
-- [Docker](https://github.com/PAPION93/TIL/blob/master/Docker/docker-command.md)
+- [Docker Command](https://github.com/PAPION93/TIL/blob/master/Docker/docker-command.md)
+- [Docker Registry](https://github.com/PAPION93/TIL/blob/master/Docker/docker_registry.md)
 
 ### Laravel
 

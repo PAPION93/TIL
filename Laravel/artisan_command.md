@@ -65,3 +65,16 @@ php artisan make:test UserTest [--unit]
 php artisan test
 vendor/bin/phpunit tests/Unit/Test.php
 ```
+
+### 각종 캐시 삭제
+```
+php artisan cache:clear
+php artisan route:clear
+php artisan config:clear
+php artisan view:clear
+```
+
+### 모든 캐시 삭제
+```
+php artisan optimize:clear
+```
