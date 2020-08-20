@@ -41,3 +41,10 @@
 
 `docker-compose down [-v]`  
 > -v: 선언된 볼륨 제거  
+
+## 호스트, 컨테이너간 파일 복사
+### 컨테이너 -> 호스트  
+`docker cp container:/root/data/test.md ~/data/ `
+
+### 호스트 -> 컨테이너
+`docker cp ~/data/test.md container:/root/data/`
