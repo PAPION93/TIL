@@ -27,14 +27,20 @@ $ php artisan migrate:reset       // 데이터베이스 초기화
 $ php artisan migrate:refresh     // reset -> 처음부터 다시 실행
 ```
 
-### DB Seeder 작성
+### Factory 생성
+```
+php artisan make:factory PostFactory
+
+```
+
+### DB Seeder 생성
 ```
 php artisan make:seeder UserSeeder
+php artisan make:factory UserMachineFactory --model=UserMachine // 모델 지정
 ```
 
 ### Seeder 실행
 ```
-composer dump-autoload // 오토로더 재생성
 php artisan db:seed
 php artisan db:seed [--class=UserSeeder]
 php artisan migrate:fresh --seed // 초기화 후 seed
@@ -47,7 +53,7 @@ php artisan make:controller PostController --resource
 
 ### 미들웨어 정의하기
 ```
-php artisan make:middleware CheckAge
+php artisan make:middleware MiddlewareName
 ```
 
 ### Request Class 생성
@@ -78,3 +84,12 @@ php artisan view:clear
 ```
 php artisan optimize:clear
 ```
+
+
+### 컴포저 오토로드 최적화
+```
+composer dump-autoload
+```
+> 오토로딩이란 자동으로 클래스나 인터페이스를 로딩해주는 것  
+> 새로운 파일이나 폴더가 추가되면 컴포저는 오토로딩 정보를 갱신 필요.  
+> [출처](https://www.lesstif.com/laravelprog/auto-loader-24445513.html)
