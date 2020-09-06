@@ -42,7 +42,7 @@ php artisan migrate:fresh --seed // 초기화 후 seed
 
 ### RESTful Resource Controller 만들기
 ```
-php artisan make:controller PostsController --resource
+php artisan make:controller PostController --resource
 ```
 
 ### 미들웨어 정의하기
@@ -53,4 +53,9 @@ php artisan make:middleware CheckAge
 ### Request Class 생성
 ```
 php artisan make:Request PostsRequest
+```
+
+### API Controller 생성
+```
+php artisan make:controller API/V1/PostController --api
 ```
