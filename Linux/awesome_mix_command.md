@@ -35,7 +35,7 @@
    - 사이즈 설정
    - `ethtool -G|--set-ring devname [rx N] [tx N]`
 
-## VI
+## VIM
 
 1. 되돌리기와 되돌리기 취소
 
