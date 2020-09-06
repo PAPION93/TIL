@@ -97,4 +97,8 @@ composer dump-autoload
 ```
 > 오토로딩이란 자동으로 클래스나 인터페이스를 로딩해주는 것  
 > 새로운 파일이나 폴더가 추가되면 컴포저는 오토로딩 정보를 갱신 필요.  
+<<<<<<< HEAD
 > [출처](https://www.lesstif.com/laravelprog/auto-loader-24445513.html)
+=======
+> [출처](https://www.lesstif.com/laravelprog/auto-loader-24445513.html)
+>>>>>>> bc2b6f4a27789cda780549b6c9583cd2d5c3473a
