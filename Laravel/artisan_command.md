@@ -21,10 +21,11 @@ $ php artisan make:migration add_name_to_authors_table
 ### 마이그레이션과 롤백 그리고 초기화
 
 ```
-$ php artisan migrate
-$ php artisan migrate:rollback    // 직전 롤백
-$ php artisan migrate:reset       // 데이터베이스 초기화
-$ php artisan migrate:refresh     // reset -> 처음부터 다시 실행
+php artisan migrate
+php artisan migrate:rollback    // 직전 롤백
+php artisan migrate:reset       // 데이터베이스 초기화
+php artisan migrate:refresh     // reset -> 처음부터 다시 실행
+php artisan migrate --database=sqlite // database 지정
 ```
 
 ### Factory 생성
@@ -43,6 +44,7 @@ php artisan make:factory UserMachineFactory --model=UserMachine // 모델 지정
 ```
 php artisan db:seed
 php artisan db:seed [--class=UserSeeder]
+php artisan db:seeder --database=sqlite // database 지정
 php artisan migrate:fresh --seed // 초기화 후 seed
 ```
 
