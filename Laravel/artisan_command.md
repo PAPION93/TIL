@@ -43,8 +43,8 @@ php artisan make:factory UserMachineFactory --model=UserMachine // 모델 지정
 ### Seeder 실행
 ```
 php artisan db:seed
-php artisan db:seed [--class=UserSeeder]
-php artisan db:seeder --database=sqlite // database 지정
+php artisan db:seed --class=UserSeeder // class 지정
+php artisan db:seed --database=sqlite // database 지정
 php artisan migrate:fresh --seed // 초기화 후 seed
 ```
 
