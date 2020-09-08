@@ -16,6 +16,11 @@
 
 `docker build [OPTIONS] PATH | URL | -`  
 `docker build -t username/imagename:1.0 .`
+> -d : Run container in the background  
+> -t : Allocate a pseudo-tty
+> -i : Keep STDIN open even if not attached
+
+[Docker run reference](https://docs.docker.com/engine/reference/run/)
 
 ## docker image run
 
