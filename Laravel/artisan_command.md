@@ -3,17 +3,17 @@
 ### Model 생성
 
 ```
-$ php artisan make:model Post
-$ php artisan make:model Author
+php artisan make:model Post [--migration or -m]
+php artisan make:model Author
 ```
 > 모델명은 단수, 테이블명은 복수
 
 ### DB Migration 생성
 
 ```
-$ php artisan make:migration create_posts_table
-$ php artisan make:migration create_authors_table
-$ php artisan make:migration add_name_to_authors_table
+php artisan make:migration create_posts_table
+php artisan make:migration create_authors_table
+php artisan make:migration add_name_to_authors_table
 ```
 
 > 생성 후 database/migrations 디렉토리 하위에 생성된 파일 작업
